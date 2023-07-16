@@ -14,3 +14,10 @@
 
 ![微信截图_20230716162105.png](https://www.jingyoushui.cn/image/9d11c994-5a49-4f12-8070-6474216a8788.png)
 
+
+
+### 求助交流
+
+如果自己尝试过程中，遇到问题，可以关注我的公众号【程序员修炼】，查看里面具体的文章介绍。或者加我的微信 cxyxl66
+
+![程序员修炼](https://www.jingyoushui.cn/image/e6ea2efe-d0d7-487a-b7a5-c8bf0ee7d005.jpg)
