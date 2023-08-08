@@ -99,7 +99,6 @@ export const canTurnTo = (name, access, routes) => {
         res = [].concat(res, getHasAccessRouteNames(item.children))
       } else {
         if (item.meta && item.meta.roles) {
-          console.log(access)
           console.log(item.meta.roles)
           if (hasAccess(access, item)) res.push(item.name)
         } else {

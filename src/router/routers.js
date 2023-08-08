@@ -14,7 +14,7 @@ export default [
 
   {
     path: '/',
-    name: '首页',
+    name: 'home',
     redirect: '/',
     component: Main,
     meta: {
@@ -46,7 +46,8 @@ export default [
     name: 'Role',
     meta: {
       icon: 'ios-world-outline',
-      title: '角色管理'
+      title: '角色管理',
+      roles: ['super_admin']
     },
     component: Main,
     children: [
@@ -54,7 +55,8 @@ export default [
         path: 'role-edit',
         name: 'role-edit',
         meta: {
-          title: '角色编辑'
+          title: '角色编辑',
+          roles: ['super_admin']
         },
         component: () => import('@/components/role/RoleEdit')
       },
@@ -62,7 +64,8 @@ export default [
         path: 'role-list',
         name: 'role-list',
         meta: {
-          title: '角色列表'
+          title: '角色列表',
+          roles: ['super_admin']
         },
         component: () => import('@/components/role/RoleList')
       },

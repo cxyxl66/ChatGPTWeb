@@ -17,7 +17,7 @@
           <Input v-model="prompt" type="textarea" :rows="3" placeholder="输入角色prompt..."/>
         </Space>
       </FormItem>
-      <FormItem label="chtGPT模型" :label-width="80">
+      <FormItem label="ChtGPT模型" :label-width="80">
         <Input v-model="model" placeholder="请输入chtGPT模型..." clearable></Input>
       </FormItem>
       <FormItem label="最大Token" :label-width="80">
@@ -147,6 +147,7 @@
                 this.integral = res.integral;
                 this.sortNum = res.sortNum;
                 this.picList = res.images;
+                this.chat = res.chat;
             },
             uploadAvatar(item) {
                 const formData = new FormData()
