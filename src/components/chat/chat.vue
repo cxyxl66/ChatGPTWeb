@@ -98,8 +98,7 @@ export default {
     initWebSocket() {
       this.initData();
       const userName =  localStorage.getItem('username');
-      const wssUrl = "wss://gpt.jingyoushui.cn/chatWebSocketForWeb/"+ userName;
-      // const wssUrl = "ws://127.0.0.1:8085/chatWebSocketForWeb/"+ userName;
+      const wssUrl = "ws://127.0.0.1:8085/chatWebSocketForWeb/"+ userName;
       this.websock = new WebSocket(wssUrl);
       this.websock.onmessage = this.websocketOnMessage;
       this.websock.onopen = this.websocketOnOpen;
